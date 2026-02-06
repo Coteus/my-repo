@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <style>
+        * {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .page_wrap {
+            width: 100%;
+        }
+        .header_container {
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+        .main_container {
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+        .header_wrap {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 26px 0;
+        }
+        .main_wrap {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 100px;
+        }
+        .dflex {
+            display: flex;
+        }
+        .dflex_sb {
+            justify-content: space-between;
+        }
+        .dflex-center {
+            align-items: center;
+        }
+        .dflex-col {
+            flex-direction: column;
+        }
+        .gap20 {
+            gap: 20px;
+        }
+        .gap40 {
+            gap: 40px;
+        }
+        .gap60 {
+            gap: 60px;
+        }
+        .row-gap20 {
+            row-gap: 20px;
+        }
+        .row-gap40 {
+            row-gap: 40px;
+        }
+        .row-gap60 {
+            row-gap: 60px;
+        }
+        .row-gap80 {
+            row-gap: 80px;
+        }
+        .row-gap100 {
+            row-gap: 100px;
+        }
+        .header_nav {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .header_nav li {
+            margin: auto 20px;
+        }
+        .header_contact {
+            text-decoration: underline;
+            text-underline-position: under;
+        }
+        .main-text1 {
+            font-size: 70px;
+            font-weight: bold;
+        }
+        .main-text2 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .main-line {
+            margin: 22px 20px 0px 20px;
+            width: 180px;
+            height: 2px;
+
+            background: #000000;
+        }
+        .main-img1 {
+            transform: translateY(60px);
+        }
+        .main-img2 {
+            transform: translateY(-70px);
+        }
+        .main-img3 {
+            transform: translate(335px, -790px);
+        }
+        .main-ellipse {
+            position: absolute;
+            left: 0px;
+            top: 60px;
+        }
+    </style>
+    <body>
+        <div class="page_wrap">
+            <header>
+                <div class="header_container">
+                    <div class="header_wrap dflex dflex_sb">
+                        <div class="dflex dflex-center">
+                            <div class="header_logo">
+                                <img src="assets/Logo.svg" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="header_nav dflex dflex-center gap60">
+                            <div>
+                                <ul class="dflex dflex_center">
+                                    <li>Home</li>
+                                    <li>About</li>
+                                    <li>Blog</li>
+                                    <li>Pricing</li>
+                                </ul>
+                            </div>
+                            <div class="header_contact">Contact Us</div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="main_container">
+                    <div class="main_wrap dflex dflex_sb">
+                        <div class="dflex dflex-col row-gap100">
+                            <div class="main-text1">Digitally forward creative</div>
+                            <div class="main-ellipse">
+                                <img src="assets/Ellipse 125.svg" alt="" />
+                            </div>
+                            <div class="main-text2 dflex">
+                                <div class="main-line"></div>
+                                When it comes to interactive marketing, we've got you covered. Be where the world is going
+                            </div>
+                        </div>
+
+                        <div class="main_img">
+                            <img class="main-img1" src="assets/Sales - Light.svg" alt="" />
+                            <img class="main-img2" src="assets/Statistic - Light.svg" alt="" />
+                            <img class="main-img3" src="assets/Customer Growth - Light.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer></footer>
+        </div>
+    </body>
+</html>
